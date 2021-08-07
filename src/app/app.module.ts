@@ -6,7 +6,6 @@ import { APP_ROUTING } from './app.routes';
 
 
 import { AppComponent } from './app.component';
-import { FootersComponent } from './Components/footers/footers.component';
 import { NavbarComponent } from './Components/headers/navbar/navbar.component';
 import { AboutComponent } from './Components/about/about.component';
 import { CalcularComponent } from './Components/calcular/calcular.component';
@@ -14,7 +13,6 @@ import { CalcularComponent } from './Components/calcular/calcular.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FootersComponent,
     NavbarComponent,
     AboutComponent,
     CalcularComponent

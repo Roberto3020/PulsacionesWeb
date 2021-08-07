@@ -27,40 +27,31 @@
     float: right;
 }
 
-
-/* 
 .body1 {
     background-image: url(./assets/images/fondo.jpg);
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
 }
 
 .bgn {
-    height: 100vh;
-    width: 50vw;
-} */
-
-.card-1 {
-    width: 100%;
-    height: 100px;
-    background-image: url(./assets/images//pulsaciones-normales.jpg);
-    color: white;
-    text-align: justify;
-    padding-left: 10px;
-    margin: 20px;
+    margin: 0 30px;
 }
 
-.footer {
-    background-color: black;
+.card-1 {
+    color: black;
+    width: 90%;
+    height: 150px;
+    border: 5px solid brown;
     color: white;
-    position: static;
-    height: 45px;
-    width: 100%;
+    text-align: justify;
+    margin: 15px 40px;
+    object-position: center;
+}
+
+.h2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     text-align: center;
 }
 
@@ -79,6 +70,8 @@
 }
 
 .h3 {
+    color: black;
+    font-weight: bold;
     position: absolute;
     top: 80px;
     right: 200px;
@@ -89,4 +82,12 @@
     position: absolute;
     top: 150px;
     right: 80px;
+}
+
+.label {
+    width: 300px;
+    top: 153px;
+    right: 260px;
+    color: black;
+    font-weight: bold;
 }
